@@ -1,0 +1,29 @@
+
+.container-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    background-image: url('./la_historia_de_hachiko_el_perro_fiel_22349_orig.jpg');
+}
+.button-landing {
+    padding: 0px;
+    
+    height: 100px;
+    width: 400px;
+    font-size: 24px;
+    background: linear-gradient(45deg, #f44336, #ff9800);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+  }
+  
