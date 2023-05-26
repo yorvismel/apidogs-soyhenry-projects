@@ -1,18 +1,22 @@
 body {
-  background-image: url('../detail/img/missing.jpg');
-  background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
+  
+  
   
 }
 
 .container_home {
+  background-image: url('../detail/img/missing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
   margin: auto;
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  
   padding: 20px;
 }
+
+
 
 .headerContainerLeft {
   display: flex;
