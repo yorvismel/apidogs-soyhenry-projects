@@ -1,11 +1,12 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Landing.css';
 
 import dogsImage from './dog1.jpg';
 import missingImage from './dog2.jpg';
 import expertDogImage from './dog3.jpg';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
   return (
@@ -14,9 +15,9 @@ const Landing = () => {
         <Container>
           <h1 className="text-center landing-title">Bienvenido a Dogs World</h1>
           <p className="text-center landing-subtitle">Descubre el mundo de los perros y encuentra información fascinante.</p>
-          <div className="text-center button">
-            <Button variant="primary" href="/home">🐶 inicio 🐶</Button>
-          </div>
+        
+            <Link className="botonlanding" to='/home'>🐶 inicio 🐶</Link>
+          
         </Container>
       </div>
       <div className="content-section">
