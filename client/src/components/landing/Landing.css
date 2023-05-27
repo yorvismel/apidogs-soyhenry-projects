@@ -23,8 +23,9 @@
 }
 
 .landing-subtitle {
-  font-size: 18px;
-  color: #666666;
+  font-size: 25px;
+  font-weight: bold;
+  color: #b56c1e;
   margin-bottom: 15px;
   animation: fade-in 1s ease;
 }
