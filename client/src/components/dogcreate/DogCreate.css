@@ -1,216 +1,202 @@
-.create-container{
-    background-image: url('./img/decepcion653770144-612x612.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items:center;
-    justify-content:space-between;
-    width: 100%;
-    height: 10%;
-    background-attachment:fixed;
-    float: left;
+.create-container {
+  background: linear-gradient(135deg, #98fb98, #006400);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  background-attachment: fixed;
+  float: left;
 }
 
-
-.title{
-        color: DARKRED;
-        display: FLEX;
-        font-size: 20px;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
+.title {
+  color: DARKRED;
+  display: FLEX;
+  font-size: 20px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.items{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5rem;
-    color: rgb(70, 42, 42);
-    font-weight: bolder;
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  color: rgb(70, 42, 42);
+  font-weight: bolder;
 }
 
-.formStyle{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
- .moodDiv{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
- }
-
- .moodDiv div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
- }
-
- .eraserbtn{
-    align-items: center;
-    background: red;
-    color: white;
-    border-radius: 0.3rem;
-    cursor: pointer;
-    height: 30px;
-    width: 30px;
+.moodDiv {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
-.numInput{
-        padding: 5px;
-            font-size: 25px;
-            border-width: 2px;
-            border-color: #ffe708;
-            background-color: #f1eeee;
-            color: #000000;
-            border-style: outset;
-            border-radius: 9px;
-            box-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
-            text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
+.moodDiv div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.btnh2{
-    font-size: 1.5rem;
-    color: rgb(0, 255, 200);  
-    font-family: fantasy;  
+.eraserbtn {
+  align-items: center;
+  background: red;
+  color: white;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
 }
 
-.btnh3{
-    font-size: 2rem;
-    color: rgb(255, 0, 200);
-    font-family: fantasy;  
+.numInput {
+  padding: 5px;
+  font-size: 25px;
+  border-width: 2px;
+  border-color: #ffe708;
+  background-color: #f1eeee;
+  color: #000000;
+  border-style: outset;
+  border-radius: 9px;
+  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+  text-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+  transition: transform 0.3s ease;
 }
 
+.numInput:hover {
+  transform: scale(1.1);
+}
 
-.errorStyle{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    
+.btnh2 {
+  font-size: 1.5rem;
+  color: rgb(31, 32, 32);
+  font-family: fantasy;
+}
+
+.btnh3 {
+  font-size: 2rem;
+  color: rgb(255, 0, 200);
+  font-family: fantasy;
+}
+
+.errorStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .errores {
-    
-    color: #721C24;
-    padding: 10px;
-    border-radius: 5px;
-    }
-    
-    .tex-err {
-    
-    font-size: 15px;
-    color: red;
-    
-    }
-    .prueba {
-        display: flex;
-        justify-content: flex-end;
-      }
-    
-    
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tex-err {
+  font-size: 15px;
+  color: red;
+}
+.prueba {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* .errorStyle > h1 {
     justify-self: flex-start ;
 } */
-.btn{
-    width: 5rem;
-    margin: 1rem;
-    margin-top: 0.5em;
-    appearance: none;
-    
-    background-color: #2e60b7;
-    border-radius: 50px;
-    border-style: none;
-    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
-    font-weight: 600;
-    letter-spacing: normal;
-    line-height: 1.5;
-    outline: none;
-    overflow: hidden;
-    padding: 13px 20px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transform: translate3d(0, 0, 0);
-    transition: all .3s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: top;
-    white-space: nowrap;
-    
-    }
-    
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  margin: 1rem;
+  margin-top: 0.5em;
+  padding: 13px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
 .btn:hover {
-    background-color: #1e8449;
-    opacity: 1;
-    transform: translateY(0);
-    transition-duration: .35s;
-    }
-    
+  background-color: #45a049;
+}
+
 .btn:active {
-    transform: translateY(2px);
-    transition-duration: .35s;
-    }
-    
-.btn:hover {
-      box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
-    }
+  transform: translateY(2px);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
 
-    .alerta {
-        
-        position: fixed;
-        top: 250px;
-        left: 50%;
-        transform: translate(-50%, 0);
-        padding: 16px;
-        background-image: url('https://w7.pngwing.com/pngs/341/828/png-transparent-cut-pieces-scissors-confetti-seamless-background.png');
-        border-radius: 50px;
-        opacity: 0.8;
-        border: 1px solid #ccc;
-        box-shadow: 0px 0px 5px #ccc;
-        color: #333;
-        font-size: 60px;
-        font-weight: bold;
-        text-align: center;
-        z-index: 9999;
-      
-        
-      }
-      
-     
-      .cerrar-btn {
-        position:relative;
-        top: 0px;
-        
-        right: 3%;
-        padding: 5px 10px;
-        background-color: yellowgreen;
-        border: none;
-        border-radius: 10px;
-        color: black;
-        font-size: 14px;
-        cursor: pointer;
-      }
-      .cerrar-btn:hover {
-        color: black;
-        background-color: white;
-      }
+.alerta {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  border-radius: 50px;
+  background-color: #f1dbda; /* Color de fondo (rojo) */
+  color: #5cb6e7;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 9999;
+  overflow: hidden;
+  animation-name: alegria;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
 
-      
+@keyframes alegria {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(15deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.cerrar-btn {
+  position: relative;
+  top: 0px;
+
+  right: 3%;
+  padding: 5px 10px;
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+.cerrar-btn:hover {
+  color: black;
+  background-color: white;
+}
